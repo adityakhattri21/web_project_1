@@ -1,0 +1,182 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: #94D9EA;
+
+}
+
+.main{
+width: 80%;
+min-height: 100vh;
+margin: 2rem auto;
+display: grid;
+grid-template-columns: repeat(7,1fr);
+}
+
+.left-area{
+  grid-column: span 2;
+  height: 100%;
+background-color: #00324A;
+}
+.left-main-contents{
+  padding: 2rem 2rem;
+}
+
+.profile{
+  width :100%;
+  border-width: 80%;
+    border-bottom: 1px solid #002333;
+
+}
+
+.profile img{
+  width: 100%;
+  border-radius: 50%;
+  border: 8px solid #002333;
+}
+.name{
+  font-size: 2rem ;
+  text-align: center;
+  padding: 2px 0;
+  margin-bottom: 5px;
+  color: #f7f7f7;
+}
+.title{
+  font-size: 1.5rem ;
+  text-align: center;
+  padding: 2px 0;
+  color: #f7f7f7;
+}
+
+.contact{
+  width: 100%;
+  line-height: 2;
+  color: #f7f7f7;
+
+}
+.contact-title{
+  font-size: 2rem;
+}
+
+.contact ul{
+  border-bottom: 1px solid #002333;
+  text-align: center;
+}
+
+.skills-title{
+  font-size: 2rem;
+  color: #f7f7f7;
+  padding-bottom: 1rem;
+}
+
+.skills ul li{
+    text-align:center;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.skills li{
+  padding-top: 0.5rem;
+}
+
+.progress-bar{
+  width: 100%;
+  height: 0.4rem;
+  background-color: #2D3748;
+  position:relative;
+  border-radius: 12px;
+}
+.progress{
+  height:100%;
+  position: absolute;
+  left: 0;
+  background-color: #2D9CDB;
+    border-radius: 12px;
+}
+.html-progress{
+  width: 25%;
+}
+.css-progress{
+  width: 25%;
+}
+.js-progress{
+  width: 25%;
+}
+
+.c-progress{
+  width: 25%;
+}
+.cp-progress{
+  width: 25%;
+}
+.f-progress{
+  width: 25%;
+}
+.skill-name{
+  font-size: 1rem;
+  color: #f7f7f7;
+
+}
+
+.right-area{
+  grid-column: span 5;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+.right-main-contents{
+  padding: 2rem 2rem;
+}
+.right-title{
+  letter-spacing: 1px;
+  color: #2F80ED;
+  padding-bottom: 1.2rem;
+}
+
+.para{
+  color: #718096;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+}
+
+.sect{
+  padding-bottom: 1.5rem;
+}
+
+.timeline{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+ .tl-title{
+   letter-spacing: 1px;
+   font-size: 1.3rem;
+   color:#002333;
+ }
+ .tl-title-2{
+   letter-spacing: 1px;
+   font-size: 1.3rem;
+   color:#2D9CDB;
+
+ }
+
+.tl-content{
+  border-left : 1px  solid #ccc;
+  padding-left: 2rem;
+   position :relative;
+   padding-bottom: 2rem;
+}
+
+.tl-title-2::before{
+  content: "";
+  position: absolute;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: #2D9CDB;
+  transform: translateX(-50%);
+  left:0;
+}
